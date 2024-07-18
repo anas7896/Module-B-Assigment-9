@@ -1,0 +1,94 @@
+/* Form.module.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  .form {
+    margin: auto;
+    width: 700px;
+    background-color: #e2dede;
+    padding: 20px;
+    color: black;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .try {
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .already {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .Forms {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .inputGroup {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .row .inputGroup:last-child {
+    margin-right: 0;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .terms {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .agree {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .agree input {
+    margin-right: 10px;
+  }
+  
+  .agree span {
+    color: blue;
+    cursor: pointer;
+  }
+  
+  .submitButton {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .submitButton:hover {
+    background-color: #45a049;
+  }
+  

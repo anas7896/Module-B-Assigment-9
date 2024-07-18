@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.btnn {
+    margin-top: 20px;
+}
+
+.todobtn{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    width: 150px;
+    margin-left: 10px;
+    font-size: 19px;
+    border-radius: 10px;
+}
+
+.formbtn{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    width: 150px;
+    font-size: 19px;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+
+.todobtn:hover{
+    background-color: #2e6e31;
+}
+
+.formbtn:hover{
+    background-color: #2e6e31;
+}
